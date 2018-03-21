@@ -36,7 +36,7 @@ Employez la méthode .count() après votre query pour vérifier rapidement si vo
 Réponse: .count()=4
 
 ---
-2) Retourner le modèle et le prix de toutes les voitures de marque Mazda et tous les véhicules blanche. 
+2) Retourner le modèle et le prix de toutes les voitures de marque Mazda et toutes les voitures blanches. 
 
 Réponse: .count()=8
 
