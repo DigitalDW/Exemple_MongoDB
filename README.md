@@ -80,3 +80,8 @@ Réponse, à la fin, il ne devrait rester que 3 voitures: la Koenigsegg Agera RS
 
 ---
 11) Bonus: amusez-vous à ajouter des véhicules via le formulaire sur la page et cherchez à changer, par exemple, le modèle d'une voiture (vous verrez que la liste change instantanément!) 
+
+---
+# Solutions:
+
+<a href="https://gist.github.com/DigitalDW/629dbcae94291c78be7570c556d6f0a2#file-reponses-txt">Réponses</a>
