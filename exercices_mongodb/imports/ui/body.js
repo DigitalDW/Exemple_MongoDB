@@ -319,6 +319,19 @@ Template.body.events({
 		_.each(voitures, function(doc) { 
 		  	Voiture.insert(doc);
 		})
+	},
+	'click .qqch': function(event){
+		event.preventDefault()
+		var results = Voiture.find(
+			{},
+			{
+				_id: 0,
+				couleur: 1
+			}
+		).fetch()
+		for(var i = 0; i < results.length; i++){
+			console.log(results[i].modele);
+		}
 	}
 })
 
@@ -329,7 +342,7 @@ Template.formulaire.events({
 		const model = target.nom.value;
 		const constructor = target.marque.value;
 		const color = target.color.value;
-		const classe = target.type.value;
+		const classe = target.classe.value;
 		const num_km = target.num_km.value;
 		const occasion = target.occas.value;
 		const prix = target.prix.value;
